@@ -3,6 +3,8 @@ import { useEffect, useRef } from 'react'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
+// Hello
+
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
