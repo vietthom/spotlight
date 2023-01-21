@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Thom Le</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Thom Le. I live in Denver, CO, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,58 +61,53 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
+              I’m Thom Le. I live in Denver,CO, where I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                My fasination with coding began during the pandemic. Like most people, I was looking for an outlet to cure my bordem of remaining indoors.
+                My brain was craving something new and challenging to learn. At the time, my younger had enrolled in a Computer Science courses and introduced me to basic HTML and CSS. 
+                I was instantly hooked. I began teaching myself how to code using freecodecamp, w3schools, and youtube videos. 
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                During this time I was interested in changing my career path from environmental consulting to web development. 
+                I eventually enrolled in a 6 month Full Stack Web Development course through the University of Denver. 
+                The course was fast pace but gave me great foundation in both frontend and backend web development. We touched on the basics of HTML, CSS, javaScript to working with RESTFUL APIs and modern tech stacks like MERN. 
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                After completing the bootcamp, I took up a 3 month software engineering internship position with Manafall. 
+                Manafall is small start up in Burlington, VT who is slowing building up an impressive portfolio of projects from websites to complex iOS applications. 
+                During my internship I began refining my skills using modern frontend frameworks and technologies like Nextjs and tailwindcss to build unique websites.
+                Most importantly, I learned how to work in an agile environment with other developers and received weekly mentoring sessions that has excelled my capabilities.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                Today I am continuing to learn and build as much as possible. 
+                I am always looking for a new challenge and opportunity to connect with people in the industry!
+                Do you have an idea you want to build? Let's connect and work together!
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/vietthom" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://www.instagram.com/big_tunnaa/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/vietthom" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://www.linkedin.com/in/thom-le-b87056138/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:thomle0418@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                thomle0418@gmail.com
               </SocialLink>
             </ul>
           </div>
