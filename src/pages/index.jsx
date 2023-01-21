@@ -256,7 +256,7 @@ export default function Home({ articles }) {
             Software Engineer and Project Manager.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Thom, a software engineer and project manager based in Denver, CO. I am an aspiring web developer interested in creating unique UI/UX for the masses. When I'm not coding, I work as a Project Manager for large Environmental annd Civil Engineering firm.  
+            I’m Thom, a Software Engineer and Project Manager based in Denver, CO. I started coding in 2021 and have since completed a full stack web development bootcamp and internship with a software engineering firm. I enjoy coding unique websites, building useful applications, and continuously learning about new technologies . When I'm not coding, I work remotely as a Project Manager for a large environmental and civil engineering firm, Atlas Technical Consultants LLC.  
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
