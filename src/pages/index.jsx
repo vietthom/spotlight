@@ -24,6 +24,7 @@ import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
 
+
 function MailIcon(props) {
   return (
     <svg
@@ -203,10 +204,11 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+      
+        <Button className="group mt-6 w-full">
+          <a href="Thom Le-Resume.pdf" download>Download Resume</a>
+          <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+        </Button>
     </div>
   )
 }
@@ -247,7 +249,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="/"
         />
       </Head>
       <Container className="mt-9">
@@ -256,7 +258,7 @@ export default function Home({ articles }) {
             Software Engineer and Project Manager.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Thom, a Software Engineer and Project Manager based in Denver, CO. I started coding in 2021 and have since completed a full stack web development bootcamp and internship with a software engineering firm. I enjoy coding unique websites, building useful applications, and continuously learning about new technologies . When I'm not coding, I work remotely as a Project Manager for a large environmental and civil engineering firm, Atlas Technical Consultants LLC.  
+            I’m Thom, a Software Engineer and Project Manager based in Denver, CO. I started coding in 2021 and have since completed a full stack web development bootcamp and internship with a software engineering firm. I enjoy coding unique websites, building useful applications, and continuously learning about new technologies . When I’m not coding, I work remotely as a Project Manager for a large environmental and civil engineering firm, Atlas Technical Consultants LLC.  
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
