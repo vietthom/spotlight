@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Thom Le</title>
         <meta
           name="description"
-          content="I’m Thom Le. I live in Denver, CO, where I design the future."
+          content="I'm Thom Le. I live in Denver, CO, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,7 +61,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Thom Le. I live in Denver,CO, where I design the
+              My name is Thom Le. I live in Denver,CO, where I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -84,7 +84,7 @@ export default function About() {
               <p>
                 Today I am continuing to learn and build as much as possible. 
                 I am always looking for a new challenge and opportunity to connect with people in the industry!
-                Do you have an idea you want to build? Let's connect and work together!
+                Do you have an idea you want to build? Lets connect and work together!
               </p>
             </div>
           </div>
