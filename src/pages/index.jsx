@@ -251,6 +251,22 @@ export default function Home({ articles }) {
           name="description"
           content="/"
         />
+        {/* Facebook Meta Tags */}
+        <meta property="og:url" content="https://www.thomle.dev/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Thom Le - Software Engineer and Project Manager"/>
+        <meta property="og:description" content="/"/>
+        <meta property="og:image" content="https://www.thomle.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.117f504c.jpg&w=1080&q=75"/>
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="thomle.dev"/>
+        <meta property="twitter:url" content="https://www.thomle.dev/"/>
+        <meta name="twitter:title" content="Thom Le - Software Engineer and Project Manager"/>
+        <meta name="twitter:description" content="/"/>
+        <meta name="twitter:image" content="https://www.thomle.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.117f504c.jpg&w=1080&q=75"/>
+
+      {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
