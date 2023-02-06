@@ -45,6 +45,13 @@ const projects = [
     link: { href: 'https://github.com/vietthom/team-profile-generator', label: 'github.com' },
     logo: logoOpenShuttle,
   },
+  {
+    name: 'Figma Portfolio Design',
+    description:
+      'A fictional portfolio page built from an open source figma design',
+    link: { href: 'https://figma-portfolio-practice-msi3abzwu-thom-le.vercel.app/', label: 'vercel.com' },
+    logo: logoPlanetaria,
+  },
 ]
 
 function LinkIcon(props) {
