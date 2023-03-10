@@ -11,6 +11,13 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
+    name: 'Typescript Gym Landing Page',
+    description:
+      'React + Vite + Typescript + Tailwind + Framer Motion = One cool project',
+    link: { href: 'https://typescript-landing-page-b2d2o7t68-thom-le.vercel.app/', label: 'vercel.com' },
+    logo: logoCosmos,
+  },
+  {
     name: 'Stand Strong MMA',
     description:
       'Next.js website for a fictional martial arts studio',
