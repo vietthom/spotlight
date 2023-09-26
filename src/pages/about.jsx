@@ -86,6 +86,7 @@ export default function About() {
                 I am always looking for a new challenge and opportunity to connect with people in the industry!
                 Do you have an idea you want to build? Lets connect and work together!
               </p>
+              <p>testing</p>
             </div>
           </div>
           <div className="lg:pl-20">
