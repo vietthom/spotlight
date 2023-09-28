@@ -61,30 +61,19 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              My name is Thom Le. I live in Denver, CO, where I design the
-              future.
+              Hello, my name is Thom! 
             </h1>
+            <h2 className="text-1xl tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">Lets create something great together!</h2>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                My fasination with coding began during the pandemic. Like most people, I was looking for an outlet to cure my bordem of remaining indoors.
-                My brain was craving something new and challenging to learn. At the time, my younger had enrolled in a Computer Science courses and introduced me to basic HTML and CSS. 
-                I was instantly hooked. I began teaching myself how to code using freecodecamp, w3schools, and youtube videos. 
+                I am a versatile professional with a unique blend of experience in both Project Management and software engineering. 
+                My track record demonstrates a commitment to driving success in projects that revolutionize asset tracking, tagging, and data management through strategic planning, resource allocation, and effective stakeholder collaboration.
               </p>
               <p>
-                During this time I was interested in changing my career path from environmental consulting to web development. 
-                I eventually enrolled in a 6 month Full Stack Web Development course through the University of Denver. 
-                The course was fast pace but gave me great foundation in both frontend and backend web development. We touched on the basics of HTML, CSS, javaScript to working with RESTFUL APIs and modern tech stacks like MERN. 
-              </p>
-              <p>
-                After completing the bootcamp, I took up a 3 month software engineering internship position with Manafall. 
-                Manafall is small start up in Burlington, VT who is slowing building up an impressive portfolio of projects from websites to complex iOS applications. 
-                During my internship I began refining my skills using modern frontend frameworks and technologies like Nextjs and tailwindcss to build unique websites.
-                Most importantly, I learned how to work in an agile environment with other developers and received weekly mentoring sessions that has excelled my capabilities.
-              </p>
-              <p>
-                Today I am continuing to learn and build as much as possible. 
-                I am always looking for a new challenge and opportunity to connect with people in the industry!
-                Do you have an idea you want to build? Lets connect and work together!
+                In addition to my project management skills, I am a highly motivated and enthusiastic software engineer with a laser focus on front-end web development. 
+                My tenure at Manafall allowed me to channel my passion for creating visually captivating and user-centric web interfaces, contributing significantly to the development of engaging web applications. 
+                With a dedication to enhancing user experiences and a drive to excel in the world of software engineering, I eagerly embrace challenges and opportunities to innovate in the digital space. 
+                My ability to bridge the worlds of project management and software engineering uniquely positions me to drive excellence in both domains.
               </p>
             </div>
           </div>
