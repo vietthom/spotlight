@@ -63,7 +63,9 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Hello, my name is Thom! 
             </h1>
-            <h2 className="text-1xl tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">Lets create something great together!</h2>
+            <h3 className="text-l tracking-tight italic text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+              Transforming Complexity into Simplicity with Code.
+            </h3>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 I am a versatile professional with a unique blend of experience in both Project Management and software engineering. 
