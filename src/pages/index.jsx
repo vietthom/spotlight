@@ -8,10 +8,10 @@ import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   TwitterIcon,
-  InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
+
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -20,9 +20,18 @@ import image5 from '@/images/photos/image-5.jpg'
 import logoAtlas from '@/images/logos/atlas_logo.jpeg'
 import logoATC from '@/images/logos/atc.jpeg'
 import logoManafall from '@/images/logos/manafall_logo.png'
-import { generateRssFeed } from '@/lib/generateRssFeed'
-import { getAllArticles } from '@/lib/getAllArticles'
-import { formatDate } from '@/lib/formatDate'
+// import { generateRssFeed } from '@/lib/generateRssFeed'
+// import { getAllArticles } from '@/lib/getAllArticles'
+// import { formatDate } from '@/lib/formatDate'
+
+import Spline from '@splinetool/react-spline';
+
+// function Avatar() {
+//   return (
+//     <Spline scene="https://prod.spline.design/jVYDj72cURzpMlSd/scene.splinecode" />
+    
+//   );
+// }
 
 
 function MailIcon(props) {
@@ -84,20 +93,7 @@ function ArrowDownIcon(props) {
   )
 }
 
-// function Article({ article }) {
-//   return (
-//     <Card as="article">
-//       <Card.Title href={`/articles/${article.slug}`}>
-//         {article.title}
-//       </Card.Title>
-//       <Card.Eyebrow as="time" dateTime={article.date} decorate>
-//         {formatDate(article.date)}
-//       </Card.Eyebrow>
-//       <Card.Description>{article.description}</Card.Description>
-//       <Card.Cta>Read article</Card.Cta>
-//     </Card>
-//   )
-// }
+
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -268,14 +264,21 @@ export default function Home({ articles }) {
 
       {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
       </Head>
+      
       <Container className="mt-9">
+      
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             Software Engineer and Project Manager.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Thom, a Software Engineer and Project Manager based in Denver, CO. I started coding in 2021 and have since completed a full stack web development bootcamp and internship with a software engineering firm. I enjoy coding unique websites, building useful applications, and continuously learning about new technologies . When I’m not coding, I work remotely as a Project Manager for a large environmental and civil engineering firm, Atlas Technical Consultants LLC.  
+            I’m Thom, a Software Engineer and Project Manager based Savannah, GA. I started coding in 2021 and have since completed a full stack web development bootcamp and internship with a software engineering firm. I enjoy coding unique websites, building useful applications, and continuously learning about new technologies . When I’m not coding, I work remotely as a Project Manager for a large environmental and civil engineering firm, Atlas Technical Consultants LLC.  
           </p>
+          <Button className="group mt-6 w-full">
+            <a href="Thom Le-Resume.pdf" download>Download Resume</a>
+            <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+          </Button>
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com/vietthom"
@@ -293,9 +296,11 @@ export default function Home({ articles }) {
               icon={LinkedInIcon}
             />
           </div>
+          
         </div>
       </Container>
-      <Photos />
+      {/* <Photos /> */}
+      
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           {/* <div className="flex flex-col gap-16">
@@ -304,25 +309,25 @@ export default function Home({ articles }) {
             ))}
           </div> */}
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
+            {/* <Newsletter /> */}
+            {/* <Resume /> */}
           </div>
         </div>
       </Container>
-    </>
+    </> 
   )
 }
 
-export async function getStaticProps() {
-  if (process.env.NODE_ENV === 'production') {
-    await generateRssFeed()
-  }
+// export async function getStaticProps() {
+//   if (process.env.NODE_ENV === 'production') {
+//     await generateRssFeed()
+//   }
 
-  return {
-    props: {
-      articles: (await getAllArticles())
-        .slice(0, 4)
-        .map(({ component, ...meta }) => meta),
-    },
-  }
-}
+//   return {
+//     props: {
+//       articles: (await getAllArticles())
+//         .slice(0, 4)
+//         .map(({ component, ...meta }) => meta),
+//     },
+//   }
+// }
